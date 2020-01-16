@@ -7,6 +7,10 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/**/deeplearningchallenge.iml
+.idea/**/deployment.xml
+.idea/**/misc.xml
+.idea/**/inspectionsProfiles/
 
 # Generated files
 .idea/**/contentModel.xml
@@ -72,3 +76,11 @@ fabric.properties
 
 # Dataset Intel
 intel-image-classification/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+
