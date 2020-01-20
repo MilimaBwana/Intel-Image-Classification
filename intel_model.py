@@ -70,6 +70,9 @@ def precision_m(y_true, y_pred):
 def main():
     seed = 42
 
+    train_directory = 'intel-image-classification/seg_train'
+    test_directory = 'intel-image-classification/seg_test'
+
     train_datagen = ImageDataGenerator(
         rescale=1. / 255,
         data_format='channels_last',
@@ -81,7 +84,7 @@ def main():
     test_datagen = ImageDataGenerator(rescale=1. / 255)
 
     train_data = train_datagen.flow_from_directory(
-        'intel-image-classification/seg_train',
+        train_directory,
         target_size=img_shape[:-1], # only height and width
         batch_size=32,
         seed=seed,
@@ -90,7 +93,7 @@ def main():
         class_mode='sparse')
 
     test_data = test_datagen.flow_from_directory(
-        'intel-image-classification/seg_test',
+        test_directory,
         target_size=img_shape[:-1], # only height and width
         color_mode='rgb',
         class_mode='sparse')
