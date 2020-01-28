@@ -33,6 +33,6 @@ After 6 Epochs trained
 - Accuracy on validation set: 0.9229
 - Accuracy on test set: 0.914
 
-![ConfusionMatrix](/presentation/confusion_matrix.jpg?raw=true)
+![ConfusionMatrix](/presentation/confusion_matrix.JPG?raw=true)
 
 
