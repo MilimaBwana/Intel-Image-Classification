@@ -27,9 +27,11 @@ train set.
 - Image Augmentation: Random crops, blurring, left-right-flips
 - Regularization: Dropouts, BatchNormalization
 
-## Results:
-- Accuracy on train set:
-- Accuracy on validation set:
-- Accuracy on test set:
+## Results: 
+After 6 Epochs trained
+- Accuracy on train set: 0.9281
+- Accuracy on validation set: 0.9229
+- Accuracy on test set: 0.914
+
 
 
