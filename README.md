@@ -11,7 +11,7 @@ You can get the data from this link.
 - Pandas
 - Matplotlib
 - OpenCV for Python
-- tf-nightly, if you want to use tensorboard (see [here](https://www.dlology.com/blog/how-to-run-tensorboard-in-jupyter-notebook/)
+- tf-nightly, if you want to use tensorboard in Jupyter Notebook (see [here](https://www.dlology.com/blog/how-to-run-tensorboard-in-jupyter-notebook/))
 
 This notebook was designed to be run on Google Colab. For this to work,
 you need the dataset on your Google Drive. 
