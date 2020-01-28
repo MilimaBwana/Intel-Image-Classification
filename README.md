@@ -28,7 +28,7 @@ train set.
 - Regularization: Dropouts, BatchNormalization
 
 ## Results: 
-After 6 Epochs trained
+After Training for 6 Epochs
 - Accuracy on train set: 0.9281
 - Accuracy on validation set: 0.9229
 - Accuracy on test set: 0.914
