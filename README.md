@@ -1,4 +1,4 @@
-# DeepLearningChallenge
+# Intel Image Classification
 
 Intel Image Classification: see [here](https://www.kaggle.com/puneet6060/intel-image-classification).
 You can get the data from this link. 
@@ -25,7 +25,7 @@ train set.
 ## Approaches to classify images:
 - Transfer Learning: from pretrained VGG16-Model
 - Image Augmentation: Random crops, blurring, left-right-flips
-- 
+- Regularization: Dropouts, BatchNormalization
 
 ## Results:
 - Accuracy on train set:
