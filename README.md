@@ -26,6 +26,7 @@ train set.
 - Transfer Learning: from pretrained VGG16-Model
 - Image Augmentation: Random crops, blurring, left-right-flips
 - Regularization: Dropouts, BatchNormalization
+
 ![Architecture](/presentation/Model.png?raw=true)
 
 ## Results: 
