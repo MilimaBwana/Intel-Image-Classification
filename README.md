@@ -17,7 +17,7 @@ This notebook was designed to be run on Google Colab. For this to work,
 you need the dataset on your Google Drive. 
 If you have the dataset on your local computer and a 
 machine learning capable GPU, you can change the variables train_directory
-and test_directory to the corresponding directories and then execute the notebook.
+and test_directory to the corresponding directories on your local drive and then execute the notebook.
 The data record should be in the preconstructed folder structure. 
 The validation set is a subset (default: 25 percent) of the
 train set.
