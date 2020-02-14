@@ -30,7 +30,7 @@ train set.
 ![Architecture](/presentation/Model.png?raw=true)
 
 ## Results: 
-Results after 10 runs, 6 epochs each
+Averaged results after 10 runs, 6 epochs each
 - Accuracy on train set: 94.07 %
 - Accuracy on validation set: 91.95 %
 - Accuracy on test set: 91.92 %
