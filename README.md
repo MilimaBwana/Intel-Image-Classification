@@ -26,12 +26,13 @@ train set.
 - Transfer Learning: from pretrained VGG16-Model
 - Image Augmentation: Random crops, blurring, left-right-flips
 - Regularization: Dropouts, BatchNormalization
+![Architecture](/presentation/Model.png?raw=true)
 
 ## Results: 
-After Training for 6 Epochs
-- Accuracy on train set: 0.9281
-- Accuracy on validation set: 0.9229
-- Accuracy on test set: 0.914
+Results after 10 runs, 6 epochs each
+- Accuracy on train set: 94.07 %
+- Accuracy on validation set: 91.95 %
+- Accuracy on test set: 91.92 %
 
 ![ConfusionMatrix](/presentation/confusion_matrix.JPG?raw=true)
 
